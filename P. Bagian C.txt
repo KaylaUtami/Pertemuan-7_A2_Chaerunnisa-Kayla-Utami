@@ -1,0 +1,9 @@
+teks_awal = input("Masukkan teks awal: ")
+faktor_pengganda = int(input("Masukkan faktor pengganda: "))
+
+teks_hasil = ""
+
+for karakter in teks_awal:
+    teks_hasil += karakter * faktor_pengganda
+
+print("Teks hasil:", teks_hasil)
